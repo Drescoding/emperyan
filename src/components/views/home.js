@@ -10,8 +10,12 @@ export default class Home extends Component {
     return (
       <div id="home">
         <Navigation />
-        This is the home page.
 
+        <h1>Introducing Empyrean Trust</h1>
+
+        <p>At Empyrean Trust, we want to help companies that help others succeed. We’re a business incubator and accelerator offering a full spectrum of funding, support, and consulting services to companies that have a strong social or generative mission. We are uniquely well-equipped to support owners and founders from demographics that often face structural or economic barriers to upward mobility: women, racial minorities, veterans, those with disabilities, poor rural populations, and LGBT people.
+
+        Let us help you make the world a better place.</p>
       </div>
 
     );
