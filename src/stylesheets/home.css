@@ -1,3 +1,9 @@
+body {
+    background: #f5f5f5;
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+  }  
+
 #background  {
     width: 100vh;
 }
@@ -40,12 +46,27 @@ padding: 0;
     animation: fadein 2s;
 }
 
+h2 {
+    color: rgb(64, 139, 237);
+}
+
+h5 {
+    text-align: justify;
+    text-justify: auto;
+}
+
 .content_black {
     margin: 5vw 10vw;
 }
 
 .content_black h1 {
     color: white;
+    font-weight: 200;
+}
+
+h1 {
+    color: rgb(64, 139, 237);
+    font-weight: 200;
 }
 
 .background {

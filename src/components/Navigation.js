@@ -6,7 +6,7 @@ export default class Navigation extends React.Component {
   render(){
     return(
     <div>
-    <Navbar bg="light" expand="md" variant="light" fixed="top">
+    <Navbar bg="light" expand="lg" variant="light" fixed="top">
           <Navbar.Brand href="/">Empyrean Trust</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

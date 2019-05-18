@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Navigation from '../Navigation.js';
 import { VictoryBar, VictoryChart, VictoryTheme, VictoryAxis } from 'victory';
+import { withTheme } from "@material-ui/core";
 
 export default class Fundraising extends Component {
   render() {
     return (
       <div className="content" onScrollCapture>
         <Navigation />
+        <h1>Fundraising</h1>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
         <VictoryChart
             theme={VictoryTheme.material}
