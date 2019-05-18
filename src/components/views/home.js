@@ -11,7 +11,7 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <div id="home">
+      <div>
         <Navigation />
         <div className="centered">
           <p>OUR MISSION</p>
@@ -33,14 +33,14 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="content">
-          <h1>Case studies</h1>
-          <GridList cellHeight={160} className={styles.gridList} cols={3}>
-          {tileData.map(tile => (
-            <GridListTile key={tile.img} cols={tile.cols || 1} onClick={this.handleClickOpen}>
-              <img src={tile.img} alt={tile.title} />
-            </GridListTile>
-          ))}
-        </GridList>
+          <h1>Investments</h1>
+          <GridList cols={3}>
+            {tileData.map(tile => (
+              <GridListTile key={tile.img}>
+                <img src={tile.img} alt={tile.title} />
+              </GridListTile>
+            ))}
+          </GridList>
         </div>
       </div>
     );
@@ -68,17 +68,3 @@ const tileData = [
     cols: 1,
   }
 ]
-
-const styles = theme => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 500,
-    height: 450,
-  },
-});
