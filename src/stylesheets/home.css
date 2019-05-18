@@ -37,8 +37,8 @@ padding: 0;
     margin: 5vw 10vw;
 }
 
-.map {
-    margin: 5vw 10vw;
+#map {
+    margin: 0 10% ;
 }
 
 .content p {
