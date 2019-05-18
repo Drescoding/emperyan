@@ -63,6 +63,11 @@ padding: 0;
     color: white;
 }
 
+#graph {
+   height: 50vh;
+   background: white;
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
