@@ -40,6 +40,30 @@ padding: 0;
     animation: fadein 2s;
 }
 
+.content_black {
+    margin: 5vw 10vw;
+}
+
+.content_black h1 {
+    color: white;
+}
+
+.background {
+    background: black;
+    padding: 1vh;
+}
+
+.content_black p {
+    font-size: 20px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+    color: white;
+}
+
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

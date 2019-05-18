@@ -1,9 +1,13 @@
 {
-  "name": "amina-bashir",
+  "name": "emperyan",
+  "homepage": "https://drescoding.github.io/my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
     "react": "^16.8.1",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.1",
@@ -11,6 +15,8 @@
     "react-scripts": "2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
