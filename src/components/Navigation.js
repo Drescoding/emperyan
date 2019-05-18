@@ -7,17 +7,15 @@ export default class Navigation extends React.Component {
     return(
     <div>
     <Navbar bg="light" expand="md" variant="light" fixed="top">
-          <Navbar.Brand>Empyrean Trust</Navbar.Brand>
+          <Navbar.Brand href="/">Empyrean Trust</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/team"> Team </Nav.Link>
-                <Nav.Link href="/story"> Story </Nav.Link>
                 <Nav.Link href="/fundraising"> Fundraising </Nav.Link>
-                <Nav.Link href="/bd"> Business Development </Nav.Link>
-                <Nav.Link href="/admin"> Administrative and Accounting </Nav.Link>
-
+                <Nav.Link href="/business_consulting"> Business Consulting </Nav.Link>
+                <Nav.Link href="/case_studies"> Case studies</Nav.Link>
+                <Nav.Link href="/team"> Team </Nav.Link>
+                <Nav.Link href="/contact_us"> Contact Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
     </Navbar>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navigation from '../Navigation.js';
 
-export default class About extends Component {
+export default class Fundraising extends Component {
   render() {
     return (
       <div id="fundraising">
