@@ -94,3 +94,4 @@ const tileData = [
     cols: 1,
   }
 ]
+

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Navigation from '../Navigation.js';
 import { VictoryBar, VictoryChart, VictoryTheme, VictoryAxis } from 'victory';
-import { withTheme } from "@material-ui/core";
 
 export default class Fundraising extends Component {
   render() {
