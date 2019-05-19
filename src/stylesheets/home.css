@@ -117,10 +117,20 @@ h1 {
 }
 
 #graph {
-   height: 50vh;
+   height: 40vh;
    background: white;
 }
 
+#centered_image {
+    width: 33vw;
+    margin: 2vh 33vw ;
+}
+
+#backgroundImage {
+     background-image: url('./homeImage.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
 
 @keyframes fadein {
     from { opacity: 0; }

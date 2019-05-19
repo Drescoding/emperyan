@@ -7,6 +7,7 @@ import GridListTile from '@material-ui/core/GridListTile';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Team from './team.js'
+import logo from './logo.png'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -16,6 +17,9 @@ export default class Home extends Component {
     return (
       <div>
         <Navigation />
+        <div id="backgroundImage">
+          <img id="centered_image" src={logo} alt="logo" />
+        </div>
         <div className="centered">
           <p>OUR MISSION:</p>
           <h1>Empower.</h1>
