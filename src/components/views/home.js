@@ -4,6 +4,9 @@ import Navigation from '../Navigation.js';
 import Map from '../Map.js'
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+
 
 export default class Home extends Component {
   componentDidMount() {
@@ -14,35 +17,49 @@ export default class Home extends Component {
       <div>
         <Navigation />
         <div className="centered">
-          <p>OUR MISSION</p>
+          <p>OUR MISSION:</p>
           <h1>Empower.</h1>
           <p>We ensure social enterprises can thrive and prosper by providing
               them a platform and tool kits to achieve their growth strategies.</p>
         </div>
+
         <div className="content">
-          <h1>Fundraising</h1>
-          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
-          <p>Let us help you make the world a better place.</p>
+          <Grid container spacing={24}>
+            <Grid item sm={12} lg={6}></Grid>
+            <Grid className="whiteBox" item sm={12} lg={6}>
+              <h1>Our philosophy</h1>
+              <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+              <p>Let us help you make the world a better place.</p>
+              <div className="buttons">
+                <Button variant="outlined" size="small">Growth hacking</Button>
+                <Button variant="outlined" size="small">Fundraising</Button>                </div>
+            </Grid>
+          </Grid>
+
+        <div className="map">
+          <h1>Our Global Reach</h1>
           <Map />
         </div>
-        <div className="background">
-          <div className="content_black">
-            <h1>Consulting</h1>
-            <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
-            <p>Let us help you make the world a better place.</p>
-          </div>
-        </div>
-        <div className="content">
-          <h1>Investments</h1>
-          <GridList cols={3}>
-            {tileData.map(tile => (
-              <GridListTile key={tile.img}>
-                <img src={tile.img} alt={tile.title} />
-              </GridListTile>
-            ))}
-          </GridList>
+      </div>
+
+      <div className="background">
+        <div className="content_black">
+          <h1>Consulting</h1>
+          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+          <p>Let us help you make the world a better place.</p>
         </div>
       </div>
+      <div className="content">
+        <h1>Investments</h1>
+        <GridList cols={3}>
+          {tileData.map(tile => (
+            <GridListTile key={tile.img}>
+              <img src={tile.img} alt={tile.title} />
+            </GridListTile>
+          ))}
+        </GridList>
+      </div>
+      </div >
     );
   }
 }
@@ -68,3 +85,4 @@ const tileData = [
     cols: 1,
   }
 ]
+

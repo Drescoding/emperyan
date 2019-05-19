@@ -10,12 +10,13 @@ body {
 
 .centered p {
     color: white;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .centered h1 {
     color: white;
-    font-size: 50px;
+    font-size: 10em;
+    font-weight: bold;
 }
 
 .container {
@@ -33,12 +34,19 @@ padding: 0;
     box-sizing: unset;
 }
 
+.buttons {
+    text-align: right;    
+}
+.button {
+    padding: 100px;
+}
+
 .content {
     margin: 5vw 10vw;
 }
 
-#map {
-    margin: 0 10% ;
+.map {
+    margin: 5% ;
 }
 
 .content p {
@@ -57,6 +65,21 @@ h2 {
 h5 {
     text-align: justify;
     text-justify: auto;
+}
+
+.whiteBox {
+    background: white;
+}
+
+.whiteBox p {
+    padding: 0px 5vw;
+}
+
+.whiteBox h1 {
+    padding: 0px 5vw;
+    font-weight: bold;
+    color: rgb(227, 114, 98);
+
 }
 
 .content_black {
