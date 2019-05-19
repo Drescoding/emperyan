@@ -71,6 +71,8 @@ h5 {
 .whiteBox {
     background: white;
     justify-content: space-around;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 .whiteBoxButton {

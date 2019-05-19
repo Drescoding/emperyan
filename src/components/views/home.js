@@ -6,6 +6,7 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Paper from '@material-ui/core/Paper';
 import Team from './team.js'
 import logo from './logo.png'
 
@@ -28,12 +29,13 @@ export default class Home extends Component {
         </div>
 
         <div className="content">
-          <Grid container spacing={10}>
-            <Grid item className="whiteBox" sm={12} lg={12}>
-              <h1>Our philosophy</h1>
-              <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
-              <p>Let us help you make the world a better place.</p>
-            </Grid>
+          <div className="whiteBox" sm={12} lg={12}>
+            <h1>Our philosophy</h1>
+            <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+            <p>Let us help you make the world a better place.</p>
+          </div>
+
+          <Grid container>
             <Grid className="whiteBoxButton" item sm={6} lg={6}>
               <Button color="primary" href="/growth_hacking" size="large">Growth hacking</Button>
             </Grid>
@@ -46,6 +48,11 @@ export default class Home extends Component {
             <h1>Our Global Reach</h1>
             <Map />
           </div>
+
+          <div className={styles.root}>
+          </div>
+
+
         </div>
 
         <div className="background">
