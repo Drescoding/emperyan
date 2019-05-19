@@ -27,11 +27,12 @@ padding: 0;
 }
 
 .centered {
- background-image: url('./homeImage.jpg');
+ /* background-image: url('./homeImage.jpg');
     background-repeat: no-repeat;
-    background-size: 110%;
-    padding: 30% 10%;
-    box-sizing: unset;
+    background-size: 110%; */
+    background: black;
+    padding: 10% 10%;
+    /* box-sizing: unset; */
 }
 
 .buttons {
@@ -73,7 +74,6 @@ h5 {
 
 .whiteBoxButton {
     text-align: center;
-    background: white;
 }
 
 .whiteBox p {

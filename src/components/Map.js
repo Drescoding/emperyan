@@ -51,34 +51,4 @@ class SimpleMap extends Component {
   }
 }
 
-const exampleMapStyles = [
-  {
-      featureType: "poi",
-      elementType: "geometry",
-      stylers: [
-          {
-              color: "#eeeeee",
-          },
-      ],
-  },
-  {
-      featureType: "poi",
-      elementType: "labels.text",
-      stylers: [
-          {
-              visibility: "off",
-          },
-      ],
-  },
-  {
-      featureType: "water",
-      elementType: "labels.text.fill",
-      stylers: [
-          {
-              color: "#9e9e9e",
-          },
-      ],
-  },
-];
-
 export default SimpleMap;
