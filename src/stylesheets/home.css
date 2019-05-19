@@ -70,10 +70,13 @@ h5 {
 
 .whiteBox {
     background: white;
+    justify-content: space-around;
 }
 
 .whiteBoxButton {
     text-align: center;
+    background: white;
+
 }
 
 .whiteBox p {
