@@ -12,7 +12,7 @@ export default class Navigation extends React.Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
                 <Nav.Link href="/fundraising"> Fundraising </Nav.Link>
-                <Nav.Link href="/business_consulting"> Growth Hacking </Nav.Link>
+                <Nav.Link href="/growth_hacking"> Growth Hacking </Nav.Link>
                 <Nav.Link href="/case_studies"> Case studies</Nav.Link>
                 <Nav.Link href="/contact_us"> Contact Us</Nav.Link>
               </Nav>
