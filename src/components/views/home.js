@@ -25,38 +25,40 @@ export default class Home extends Component {
 
         <div className="content">
           <Grid container spacing={24}>
-            {/* <Grid item sm={12} lg={6}></Grid> */}
             <Grid className="whiteBox" item sm={12} lg={12}>
               <h1>Our philosophy</h1>
               <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
               <p>Let us help you make the world a better place.</p>
-              <div className="buttons">
-                <Button color="primary" size="small">Growth hacking</Button>
-                <Button color="primary" size="small">Fundraising</Button>                </div>
+            </Grid>
+            <Grid className="whiteBoxButton" item sm={6} lg={6}>
+              <Button color="primary" href="/business_consulting" size="large">Growth hacking</Button>
+            </Grid>
+            <Grid className="whiteBoxButton" item sm={6} lg={6}>
+              <Button color="primary" size="large" href="/fundraising">Fundraising</Button>
             </Grid>
           </Grid>
 
-        <div className="map">
-          <h1>Our Global Reach</h1>
-          <Map />
+          <div className="map">
+            <h1>Our Global Reach</h1>
+            <Map />
+          </div>
         </div>
-      </div>
 
-      <div className="background">
-        <div className="content_black">
-          <Team />
+        <div className="background">
+          <div className="content_black">
+            <Team />
+          </div>
         </div>
-      </div>
-      <div className="content">
-        <h1>Investments</h1>
-        <GridList cols={3}>
-          {tileData.map(tile => (
-            <GridListTile key={tile.img}>
-              <img src={tile.img} alt={tile.title} />
-            </GridListTile>
-          ))}
-        </GridList>
-      </div>
+        <div className="content">
+          <h1>Investments</h1>
+          <GridList cols={3}>
+            {tileData.map(tile => (
+              <GridListTile key={tile.img}>
+                <img src={tile.img} alt={tile.title} />
+              </GridListTile>
+            ))}
+          </GridList>
+        </div>
       </div >
     );
   }

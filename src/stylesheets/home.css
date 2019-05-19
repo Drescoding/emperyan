@@ -71,6 +71,11 @@ h5 {
     background: white;
 }
 
+.whiteBoxButton {
+    text-align: center;
+    background: white;
+}
+
 .whiteBox p {
     padding: 0px 5vw;
 }
