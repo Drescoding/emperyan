@@ -12,7 +12,6 @@ import CaseStudies from './components/views/caseStudies';
 export default (
   <Route path='/' component={App}>
     <IndexRoute component={Home} />
-    <Route path='team' component={Team} />
     <Route path='fundraising' component={Fundraising} />
     <Route path='case_studies' component={CaseStudies} />
     <Route path='business_consulting' component={BusinessConsulting} />

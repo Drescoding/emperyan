@@ -15,14 +15,14 @@ export default class Team extends Component {
         <div class="content">
           <div className={styles.root}>
             <Grid container spacing={16}>
-            <Grid item sm={6} lg={3}>
+              <Grid item sm={6} lg={3}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
                     alt="nathan"
                     className={styles.media}
                     height="140"
-                    image="https://cdn2.iconfinder.com/data/icons/4web-3/139/header-account-image-line-512.png"
+                    image="https://image.flaticon.com/icons/png/512/37/37232.png"
                   />
                   <CardContent>
                     <h2>Nathan Fields</h2>
@@ -37,7 +37,7 @@ export default class Team extends Component {
                     alt="nathan"
                     className={styles.media}
                     height="140"
-                    image="https://cdn2.iconfinder.com/data/icons/4web-3/139/header-account-image-line-512.png"
+                    image="https://image.flaticon.com/icons/png/512/37/37232.png"
                   />
                   <CardContent>
                     <h2>Ken Blanchard</h2>
@@ -52,10 +52,10 @@ export default class Team extends Component {
                     alt="nathan"
                     className={styles.media}
                     height="140"
-                    image="https://cdn2.iconfinder.com/data/icons/4web-3/139/header-account-image-line-512.png"
+                    image="https://image.flaticon.com/icons/png/512/37/37232.png"
                   />
                   <CardContent>
-                  <h2>Pamela Chinawah</h2>
+                    <h2>Pamela Chinawah</h2>
                     <h5>Ex omittam expetendis constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </h5>
                   </CardContent>
                 </CardActionArea>
@@ -67,7 +67,7 @@ export default class Team extends Component {
                     alt="nathan"
                     className={styles.media}
                     height="140"
-                    image="https://cdn2.iconfinder.com/data/icons/4web-3/139/header-account-image-line-512.png"
+                    image="https://image.flaticon.com/icons/png/512/37/37232.png"
                   />
                   <CardContent>
                     <h2>Kjell–Ruben Tverli</h2>
@@ -77,7 +77,7 @@ export default class Team extends Component {
               </Grid>
             </Grid>
           </div>
-          </div>
+        </div>
       </div>
     );
   }

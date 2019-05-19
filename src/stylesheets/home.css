@@ -59,7 +59,7 @@ padding: 0;
 }
 
 h2 {
-    color: rgb(64, 139, 237);
+    color: white;
 }
 
 h5 {
@@ -76,14 +76,14 @@ h5 {
 }
 
 .whiteBox h1 {
-    padding: 0px 5vw;
+    padding: 1vh 5vw;
     font-weight: bold;
     color: rgb(227, 114, 98);
 
 }
 
 .content_black {
-    margin: 5vw 10vw;
+    margin: 5vw 0vw;
 }
 
 .content_black h1 {
@@ -97,7 +97,7 @@ h1 {
 }
 
 .background {
-    background: black;
+    background: #a4d9f9;
     padding: 1vh;
 }
 

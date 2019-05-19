@@ -15,7 +15,8 @@ class SimpleMap extends Component {
       lat: 40.73,
       lng: -73.93
     },
-    zoom: 6
+    zoom: 6,
+    
   };
 
   render() {
@@ -49,5 +50,35 @@ class SimpleMap extends Component {
     );
   }
 }
+
+const exampleMapStyles = [
+  {
+      featureType: "poi",
+      elementType: "geometry",
+      stylers: [
+          {
+              color: "#eeeeee",
+          },
+      ],
+  },
+  {
+      featureType: "poi",
+      elementType: "labels.text",
+      stylers: [
+          {
+              visibility: "off",
+          },
+      ],
+  },
+  {
+      featureType: "water",
+      elementType: "labels.text.fill",
+      stylers: [
+          {
+              color: "#9e9e9e",
+          },
+      ],
+  },
+];
 
 export default SimpleMap;
