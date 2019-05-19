@@ -14,7 +14,7 @@ export default (
     <IndexRoute component={Home} />
     <Route path='fundraising' component={Fundraising} />
     <Route path='case_studies' component={CaseStudies} />
-    <Route path='business_consulting' component={BusinessConsulting} />
+    <Route path='growth_hacking' component={BusinessConsulting} />
     <Route path='contact_us' component={ContactUs} />
     <Route path='*' component={Home} />
 

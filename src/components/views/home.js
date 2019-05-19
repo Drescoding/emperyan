@@ -35,7 +35,7 @@ export default class Home extends Component {
               <p>Let us help you make the world a better place.</p>
             </Grid>
             <Grid className="whiteBoxButton" item sm={6} lg={6}>
-              <Button color="primary" href="/business_consulting" size="large">Growth hacking</Button>
+              <Button color="primary" href="/growth_hacking" size="large">Growth hacking</Button>
             </Grid>
             <Grid className="whiteBoxButton" item sm={6} lg={6}>
               <Button color="primary" size="large" href="/fundraising">Fundraising</Button>
