@@ -29,20 +29,16 @@ export default class Home extends Component {
         </div>
 
         <div className="content">
-          <div className="whiteBox" sm={12} lg={12}>
+          <div className="whiteBox">
             <h1>Our philosophy</h1>
             <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
             <p>Let us help you make the world a better place.</p>
           </div>
 
-          <Grid container>
-            <Grid className="whiteBoxButton" item sm={6} lg={6}>
-              <Button color="primary" href="/growth_hacking" size="large">Growth hacking</Button>
-            </Grid>
-            <Grid className="whiteBoxButton" item sm={6} lg={6}>
-              <Button color="primary" size="large" href="/fundraising">Fundraising</Button>
-            </Grid>
-          </Grid>
+          <div className="whiteBoxButton">
+              <a className="button" href="/growth_hacking">Growth Hacking</a>
+              <a className="button" href="/fundraising">Fundraising</a>
+          </div>
 
           <div className="map">
             <h1>Our Global Reach</h1>

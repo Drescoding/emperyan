@@ -1,5 +1,5 @@
 body {
-    background: #f5f5f5;
+    background: white;
     padding-top: 70px;
     font-family: 'Open Sans', sans-serif;
   }  
@@ -69,16 +69,28 @@ h5 {
 }
 
 .whiteBox {
-    background: white;
-    justify-content: space-around;
+    background: #e5e6e8;
     padding: 1em;
     margin: 1em 0;
 }
 
+.button {
+    background:  #e5e6e8;
+    padding: 1em 6em;
+}
+
+a {
+    color: rgb(63, 81, 181);
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .whiteBoxButton {
     text-align: center;
-    background: white;
-
+    display: flex;
+    justify-content: space-between; 
+    padding: 1em 0;
+    margin: 1em 0;
 }
 
 .whiteBox p {
@@ -88,7 +100,7 @@ h5 {
 .whiteBox h1 {
     padding: 1vh 5vw;
     font-weight: bold;
-    color: rgb(227, 114, 98);
+    color: rgb(63, 81, 181);;
 
 }
 
@@ -102,12 +114,12 @@ h5 {
 }
 
 h1 {
-    color: rgb(64, 139, 237);
+    color: rgb(63, 81, 181);
     font-weight: 200;
 }
 
 .background {
-    background: #a4d9f9;
+    background: #e5e6e8;
     padding: 1vh;
 }
 
@@ -121,7 +133,10 @@ h1 {
     color: white;
 }
 
-
+.container {
+    display: flex;
+    
+}
 
 #graph {
    height: 40vh;
