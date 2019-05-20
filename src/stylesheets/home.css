@@ -99,9 +99,6 @@ a {
 
 .whiteBox h1 {
     padding: 1vh 5vw;
-    font-weight: bold;
-    color: rgb(63, 81, 181);;
-
 }
 
 .content_black {
@@ -114,8 +111,8 @@ a {
 }
 
 h1 {
-    color: rgb(63, 81, 181);
-    font-weight: 200;
+    font-weight: bold;
+    color: rgb(63, 81, 181);;
 }
 
 .background {

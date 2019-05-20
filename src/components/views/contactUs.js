@@ -4,11 +4,11 @@ import Navigation from '../Navigation.js';
 export default class ContactUs extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="content">
         <Navigation />
         <h1>Contact Us</h1>
         {/* <div className="background"> */}
-        {/* <div className="content"> */}
+        <div className="content">
         <form action="https://formspree.io/alexandradresco@me.com" method="POST">
           <label>Name:</label>
           <input type="text" name="name" />
@@ -23,7 +23,7 @@ export default class ContactUs extends Component {
           <input type="submit" value="Send" />
           <input type="hidden" name="_next" value="https://wwww.drescoding.co/" />
         </form>
-        {/* </div> */}
+        </div>
         {/* </div> */}
       </div>
     );
