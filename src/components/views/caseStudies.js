@@ -92,6 +92,42 @@ const tileData = [
     title: 'DocDuck',
     description: 'This is what we did for the project',
     cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-3.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-5.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
+  },
+  {
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    title: 'DocDuck',
+    description: 'This is what we did for the project',
+    cols: 1,
   }
 ]
 
