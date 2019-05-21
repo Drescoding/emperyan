@@ -4,9 +4,6 @@ import Navigation from '../Navigation.js';
 import Map from '../Map.js'
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import Paper from '@material-ui/core/Paper';
 import Team from './team.js'
 import logo from './logo.png'
 
@@ -18,10 +15,10 @@ export default class Home extends Component {
     return (
       <div>
         <Navigation />
-        <div id="backgroundImage">
+        {/* <div id="backgroundImage">
           <img id="centered_image" src={logo} alt="logo" />
-        </div>
-        <div className="centered">
+        </div> */}
+        <div id="backgroundImage" className="centered">
           <p>OUR MISSION:</p>
           <h1>Empower.</h1>
           <p>We ensure social enterprises can thrive and prosper by providing

@@ -20,10 +20,10 @@ body {
 }
 
 .container {
-position: relative;
-color: black;
-margin: 0;
-padding: 0;
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .centered {
@@ -120,6 +120,11 @@ h1 {
     padding: 1vh;
 }
 
+i {
+    margin-right: 1em;
+    color: rgb(63, 81, 181);;
+}
+
 .content_black p {
     font-size: 20px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -129,6 +134,8 @@ h1 {
     animation: fadein 2s;
     color: white;
 }
+
+
 
 .container {
     display: flex;
@@ -141,8 +148,8 @@ h1 {
 }
 
 #centered_image {
-    width: 33vw;
-    margin: 2vh 33vw ;
+    width: 40px;
+    margin: 0 3vw ;
 }
 
 #backgroundImage {

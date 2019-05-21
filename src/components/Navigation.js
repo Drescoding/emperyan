@@ -1,14 +1,18 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import logo from './views/logo.png'
 
 export default class Navigation extends React.Component {
   render() {
     return (
-      <div>
+      <div >
         <Navbar bg="light" expand="lg" variant="light" fixed="top">
-          <Navbar.Brand href="/">Empyrean Trust</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="/">
+          <img id="centered_image" src={logo} alt="logo"/>
+          </Navbar.Brand>
+          <div className="center-navbar">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
               <Nav.Link href="/fundraising">
@@ -34,6 +38,7 @@ export default class Navigation extends React.Component {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          </div>
         </Navbar>
       </div>
     )
