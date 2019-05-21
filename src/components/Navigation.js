@@ -7,7 +7,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div >
-        <Navbar bg="light" expand="lg" variant="light" fixed="top">
+        <Navbar bg="light" variant="light" fixed="top">
           <Navbar.Brand href="/">
           <img id="centered_image" src={logo} alt="logo"/>
           </Navbar.Brand>
