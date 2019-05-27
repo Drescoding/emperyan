@@ -26,7 +26,7 @@ export default class Team extends Component {
                   />
                   <CardContent>
                     <h2>Nathan Fields</h2>
-                    <h5>Ex omittam alam expetendis talaham constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </h5>
+                    <p>Ex omittam alam expetendis talaham constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </p>
                   </CardContent>
                 </CardActionArea>
               </Grid>
@@ -41,7 +41,7 @@ export default class Team extends Component {
                   />
                   <CardContent>
                     <h2>Ken Blanchard</h2>
-                    <h5>Ex omittam alam expetendis talaham constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </h5>
+                    <p>Ex omittam alam expetendis talaham constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </p>
                   </CardContent>
                 </CardActionArea>
               </Grid>
@@ -56,7 +56,7 @@ export default class Team extends Component {
                   />
                   <CardContent>
                     <h2>Pamela Chinawah</h2>
-                    <h5>Ex omittam expetendis constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </h5>
+                    <p>Ex omittam expetendis constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </p>
                   </CardContent>
                 </CardActionArea>
               </Grid>
@@ -71,7 +71,7 @@ export default class Team extends Component {
                   />
                   <CardContent>
                     <h2>Kjell–Ruben Tverli</h2>
-                    <h5>Ex omittam expetendis constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </h5>
+                    <p>Ex omittam expetendis constituam vix, mel porro constituto theophrastus ex. Vidit insolens aliquando pro ad, falli euripidis in usu, duo ad suscipit epicurei vituperata. Ei eum ignota postulant. An choro delenit liberavisse per, ea detracto luptatum </p>
                   </CardContent>
                 </CardActionArea>
               </Grid>

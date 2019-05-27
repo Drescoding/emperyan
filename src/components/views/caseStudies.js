@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Navigation from '../Navigation.js';
 
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
@@ -30,6 +28,7 @@ export default class CaseStudies extends Component {
       <div>
         <Navigation />
         <div className="content">
+        <h1>Case studies</h1>
           <Grid container spacing={12} className={styles.gridList}>
             {tileData.map(tile => (
               <Grid className="gridItem" item sm={12} lg={3} key={tile.img} onClick={this.handleClickOpen}>
@@ -42,7 +41,7 @@ export default class CaseStudies extends Component {
           open={this.state.open}
           onClose={this.handleClose}
           aria-labelledby="form-dialog-title"
-        >
+          >
           <DialogTitle id="form-dialog-title">Project 1</DialogTitle>
           <DialogContent>
             <DialogContentText>

@@ -1,3 +1,13 @@
+/* If the screen size is 600px wide or less*/
+@media screen and (max-width: 600px) {
+html { font-size: calc(1em + 0.7vw) }
+}
+
+/* If the screen size is 601px wide or more*/
+@media screen and (min-width: 601px) {
+    html { font-size: calc(1em + 0.4vw) }
+}
+
 body {
     background: white;
     padding-top: 70px;
@@ -9,15 +19,9 @@ h2 {
     color: rgb(63, 81, 181);
 }
 
-h5 {
-    text-align: justify;
-    text-justify: auto;
-}
-
 a {
     color: rgb(63, 81, 181);
     font-weight: bold;
-    font-size: 20px;
 }
 
 h1 {
@@ -32,12 +36,11 @@ i {
 
 .centered p {
     color: white;
-    font-size: 14px;
 }
 
 .centered h1 {
     color: white;
-    font-size: 10em;
+    font-size: 7em;
     font-weight: bold;
 }
 
@@ -77,7 +80,6 @@ i {
 }
 
 .content p, label {
-    font-size: 20px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -133,13 +135,11 @@ i {
 
 
 .content_black p {
-    font-size: 20px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
-    color: white;
 }
 
 .container {
@@ -193,9 +193,9 @@ input[type=text], input[type=email], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rgb(63, 81, 181);
     color: white;
-    padding: 12px 20px;
+    padding: 12px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
