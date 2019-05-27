@@ -9,6 +9,8 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+
 
 export default class CaseStudies extends Component {
   state = {
@@ -27,14 +29,15 @@ export default class CaseStudies extends Component {
     return (
       <div>
         <Navigation />
-        <GridList cellHeight={160} className={styles.gridList} cols={3}>
-          {tileData.map(tile => (
-            <GridListTile key={tile.img} cols={tile.cols || 1} onClick={this.handleClickOpen}>
-              <img src={tile.img} alt={tile.title} />
-            </GridListTile>
-          ))}
-        </GridList>
-
+        <div className="content">
+          <Grid container spacing={12} className={styles.gridList}>
+            {tileData.map(tile => (
+              <Grid className="gridItem" item sm={12} lg={3} key={tile.img} onClick={this.handleClickOpen}>
+                <img className="image" src={tile.img} alt={tile.title} />
+              </Grid>
+            ))}
+          </Grid>
+        </div>
         <Dialog
           open={this.state.open}
           onClose={this.handleClose}
@@ -70,7 +73,7 @@ const styles = theme => ({
   gridList: {
     width: 500,
     height: 450,
-  },
+  }
 });
 
 const tileData = [
@@ -100,7 +103,7 @@ const tileData = [
     cols: 1,
   },
   {
-    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-6.png',
     title: 'DocDuck',
     description: 'This is what we did for the project',
     cols: 1,
@@ -112,22 +115,17 @@ const tileData = [
     cols: 1,
   },
   {
-    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-7.png',
     title: 'DocDuck',
     description: 'This is what we did for the project',
     cols: 1,
   },
   {
-    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
+    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-8.png',
     title: 'DocDuck',
     description: 'This is what we did for the project',
     cols: 1,
   },
-  {
-    img: 'https://graphiste.com/blog/wp-content/uploads/2016/07/startup-4.png',
-    title: 'DocDuck',
-    description: 'This is what we did for the project',
-    cols: 1,
-  }
+
 ]
 

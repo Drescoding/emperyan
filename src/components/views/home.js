@@ -5,7 +5,7 @@ import Map from '../Map.js'
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import Team from './team.js'
-import logo from './logo.png'
+// import logo from './logo.png'
 
 export default class Home extends Component {
   componentDidMount() {

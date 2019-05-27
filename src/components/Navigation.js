@@ -16,23 +16,23 @@ export default class Navigation extends React.Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
               <Nav.Link href="/fundraising">
-                <i class="material-icons">
+                <i className="material-icons">
                   face
                 </i>
                </Nav.Link>
 
               <Nav.Link href="/growth_hacking">
-                <i class="material-icons">
+                <i className="material-icons">
                   lock_open
                 </i>
               </Nav.Link>
               <Nav.Link href="/case_studies">
-                <i class="material-icons">
+                <i className="material-icons">
                   extension
                 </i>
               </Nav.Link>
               <Nav.Link href="/contact_us">
-                <i class="material-icons">
+                <i className="material-icons">
                   send
                 </i>
               </Nav.Link>
