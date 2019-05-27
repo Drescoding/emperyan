@@ -64,7 +64,7 @@ i {
     text-align: right;    
 }
 .button {
-    padding: 100px;
+    margin-right: 0.5em;
 }
 
 .content {
@@ -90,7 +90,6 @@ i {
 .whiteBox {
     background: #e5e6e8;
     padding: 1em;
-    margin: 1em 0;
 }
 
 .button {
