@@ -5,17 +5,13 @@ import { VictoryBar, VictoryChart, VictoryTheme, VictoryAxis } from 'victory';
 export default class Fundraising extends Component {
   render() {
     return (
-      <div className="content" onScrollCapture>
+      <div>
         <Navigation />
-        <div className="whiteBox">
-          <h1>Fundraising</h1>
-          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
-          <p>Let us help you make the world a better place.</p>
-        </div>
+        <div id="centeredGraph">
         <VictoryChart
           theme={VictoryTheme.material}
           domainPadding={20}
-          style={{ parent: { maxWidth: "55%" } }}
+          style={{ parent: { maxWidth: "65%" } }}
           animate={{ duration: 500 }}
         >
           <VictoryAxis
@@ -32,6 +28,15 @@ export default class Fundraising extends Component {
             y="earnings"
           />
         </VictoryChart>
+        </div>
+        <div className="background">
+        <div className="content">
+
+        <h1>Fundraising</h1>
+          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+            </div>
+            </div>
       </div>
     );
   }

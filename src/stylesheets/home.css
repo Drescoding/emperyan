@@ -179,6 +179,10 @@ i {
     background-size: 110%;
 }
 
+#centeredGraph {
+    padding-left: 30%;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
     width: 100%; /* Full width */
