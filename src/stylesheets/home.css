@@ -53,6 +53,12 @@ i {
     padding: 0;
 }
 
+.imgIcon {
+    max-width: auto;
+    width: 60%;
+    margin: 1em;
+}
+
 .centered {
  /* background-image: url('./homeImage.jpg');
     background-repeat: no-repeat;
