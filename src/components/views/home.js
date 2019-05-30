@@ -26,42 +26,42 @@ export default class Home extends Component {
         </div>
 
         <div className="content">
-          <div className="whiteBox">
-            <h1>Our philosophy</h1>
-            <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
-            <p>Let us help you make the world a better place.</p>
-          </div>
+          {/* <div className="whiteBox"> */}
+          <h1>Our philosophy</h1>
+          <p>Lorem ipsum dolor sit amet, eripuit vituperata in pri. Graeci regione dolorem vel ut, id alia scaevola mea, vel errem graeci ea. At est mundi principes, an dicunt sententiae duo, eros dissentiunt in pro. Has an idque assum recteque, ei mandamus aliquando has, dolor fabulas torquatos eu vis. Hinc dolor eos ex, at similique moderatius has.</p>
+          <p>Let us help you make the world a better place.</p>
+          {/* </div> */}
 
           <div className="whiteBoxButton">
-              <a className="button" href="/growth_hacking">Growth Hacking</a>
-              <a className="button" href="/fundraising">Fundraising</a>
+            <a className="button" href="/growth_hacking">Growth Hacking</a>
+            <a className="button" href="/fundraising">Fundraising</a>
           </div>
-
-          <div className="map">
-            <h1>Our Global Reach</h1>
-            <Map />
-          </div>
-
-          <div className={styles.root}>
-          </div>
-
-
         </div>
+
+        {/* Refactor this */}
+        <div className="background">
+          <div className="content_black">
+            <div className="map">
+              <h1>Our Global Reach</h1>
+              <br />
+              <Map />
+            </div>
+          </div>
+        </div>
+
+        <Team />
 
         <div className="background">
           <div className="content_black">
-            <Team />
+            <h1>Investments</h1>
+            <GridList cols={3}>
+              {tileData.map(tile => (
+                <GridListTile key={tile.img}>
+                  <img src={tile.img} alt={tile.title} />
+                </GridListTile>
+              ))}
+            </GridList>
           </div>
-        </div>
-        <div className="content">
-          <h1>Investments</h1>
-          <GridList cols={3}>
-            {tileData.map(tile => (
-              <GridListTile key={tile.img}>
-                <img src={tile.img} alt={tile.title} />
-              </GridListTile>
-            ))}
-          </GridList>
         </div>
       </div >
     );

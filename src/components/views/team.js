@@ -14,6 +14,8 @@ export default class Team extends Component {
 
         <div class="content">
           <div className={styles.root}>
+            <h1>Our Team</h1>
+            <br/>
             <Grid container spacing={16}>
               <Grid item sm={6} lg={3}>
                 <CardActionArea>
