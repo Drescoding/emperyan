@@ -40,12 +40,10 @@ render() {
 
       {/* Refactor this */}
       <div className="background">
-        <div className="content_black">
-        <div className="content">
+        <div className="margin-side">
             <h1>Our Global Reach</h1>
           </div>
             <Map />
-        </div>
       </div>
 
       <Team />

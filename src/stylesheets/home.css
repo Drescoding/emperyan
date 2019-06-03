@@ -60,12 +60,8 @@ i {
 }
 
 .centered {
- /* background-image: url('./homeImage.jpg');
-    background-repeat: no-repeat;
-    background-size: 110%; */
     background: black;
     padding: 10% 10%;
-    /* box-sizing: unset; */
 }
 
 .buttons {
@@ -79,6 +75,10 @@ i {
     margin: 5vw 10vw;
 }
 
+.margin-side {
+    margin: 2vw 10vw;
+}
+
 .content-small {
     margin: 5vw 5vw;
 }
@@ -87,7 +87,7 @@ i {
     margin: 5% ;
 }
 
-.content p, label {
+p, label {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -126,27 +126,9 @@ i {
     padding: 1vh 5vw;
 }
 
-.content_black {
-    margin: 5vw 0vw;
-}
-
-.content_black h1 {
-    color: rgb(63, 81, 181);
-    font-weight: 200;
-}
-
 .background {
     background: #f4f8ff;
     padding: 1vh;
-}
-
-
-.content_black p {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
 }
 
 .container {
