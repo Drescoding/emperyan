@@ -38,7 +38,6 @@ render() {
         </div>
       </div>
 
-      {/* Refactor this */}
       <div className="background">
         <div className="margin-side">
             <h1>Our Global Reach</h1>
