@@ -13,10 +13,11 @@ import Grid from '@material-ui/core/Grid';
 export default class CaseStudies extends Component {
   state = {
     open: false,
+    title: 'title',
   };
 
-  handleClickOpen = () => {
-    this.setState({ open: true });
+  handleClickOpen = (title) => {
+    this.setState({ open: true, title: title });
   };
 
   handleClose = () => {
@@ -31,7 +32,7 @@ export default class CaseStudies extends Component {
         <h1>Case studies</h1>
           <Grid container spacing={12} className={styles.gridList}>
             {tileData.map(tile => (
-              <Grid className="gridItem" item sm={12} lg={3} key={tile.img} onClick={this.handleClickOpen}>
+              <Grid className="gridItem" item sm={12} lg={3} key={tile.img} onClick={() => this.handleClickOpen(tile.title)}>
                 <img className="image" src={tile.img} alt={tile.title} />
               </Grid>
             ))}
@@ -42,7 +43,7 @@ export default class CaseStudies extends Component {
           onClose={this.handleClose}
           aria-labelledby="form-dialog-title"
           >
-          <DialogTitle id="form-dialog-title">Project 1</DialogTitle>
+          <DialogTitle id="form-dialog-title">{this.state.title}</DialogTitle>
           <DialogContent>
             <DialogContentText>
               Ex sint nobis invenire nam. Usu et delectus urbanitas. An munere dignissim sed, quis soluta alienum vim an. An officiis aliquando eum. Est ea offendit suscipit appetere, cum in aeterno ponderum sapientem, ei has quas suscipiantur deterruisset.
