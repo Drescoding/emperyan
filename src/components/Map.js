@@ -20,7 +20,6 @@ class SimpleMap extends Component {
   };
 
   render() {
-    console.log(process.env.REACT_APP_GOOGLE_KEY);
     return (
       // Important! Always set the container height explicitly
       <div style={{ height: '50vh', width: '100%' }}>
